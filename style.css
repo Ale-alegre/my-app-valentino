@@ -267,7 +267,7 @@ footer {
         max-height: none; /* Quitar límite de altura */
     }
     .menu-items-grid {
-        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     }
 }
 
