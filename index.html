@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast Food App - Pedidos Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Tu Comida Rápida Favorita</h1>
+    </header>
+
+    <main>
+        <section id="menu-section">
+            <h2>Nuestro Menú</h2>
+
+            <div class="category-block">
+                <h3><img src="images/icono_comida.png" alt="Comida" class="category-icon"> Comida Principal</h3>
+                <div id="comida-items-container" class="menu-items-grid">
+                    <!-- Ítems de Comida se cargarán aquí con JavaScript -->
+                    <p class="loading-message">Cargando comida...</p>
+                </div>
+            </div>
+
+            <div class="category-block">
+                <h3><img src="images/icono_bebida.png" alt="Bebidas" class="category-icon"> Bebidas Refrescantes</h3>
+                <div id="bebidas-items-container" class="menu-items-grid">
+                    <!-- Ítems de Bebidas se cargarán aquí con JavaScript -->
+                    <p class="loading-message">Cargando bebidas...</p>
+                </div>
+            </div>
+
+            <div class="category-block">
+                <h3><img src="images/icono_pizza.png" alt="Pizzas" class="category-icon"> Pizzas Deliciosas</h3>
+                <div id="pizzas-items-container" class="menu-items-grid">
+                    <!-- Ítems de Pizzas se cargarán aquí con JavaScript -->
+                    <p class="loading-message">Cargando pizzas...</p>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="cart-section">
+            <h2><img src="images/icono_carrito.png" alt="Carrito" class="category-icon"> Carrito de Compras</h2>
+            <div id="cart-items-container">
+                <p class="empty-cart-message">Tu carrito está vacío.</p>
+                <!-- Los ítems del carrito se cargarán aquí -->
+            </div>
+            <div id="cart-summary">
+                <p>Total: <span id="cart-total">S/0.00</span></p>
+                <button id="checkout-button" disabled>
+                    <img src="images/whatsapp_icon.png" alt="WhatsApp" class="button-icon"> Realizar Pedido
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2023 El Sabor Rápido. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
