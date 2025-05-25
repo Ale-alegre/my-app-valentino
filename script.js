@@ -21,23 +21,23 @@ document.addEventListener('DOMContentLoaded', () => {
     // Datos de ejemplo del menú (puedes obtenerlos de un backend en una app real)
     const menuData = [
         // Comida
-        { id: 1, name: "Hamburguesa Clásica", price: 15.50, image: "images/hamburguesa.jpg", category: "comida" },
-        { id: 2, name: "Papas Fritas Grandes", price: 8.00, image: "images/papas.jpg", category: "comida" },
-        { id: 3, name: "Combo Doble Queso", price: 25.00, image: "images/hamburguesa_doble.jpg", category: "comida" }, // Asumir otra imagen
-        { id: 4, name: "Nuggets (x6)", price: 10.50, image: "images/nuggets.jpg", category: "comida" },
-        { id: 5, name: "Alitas BBQ (x8)", price: 18.00, image: "images/alitas_bbq.jpg", category: "comida" },
+        { id: 1, name: "Hamburguesa Clásica", price: 15.50, image: "hamburguesa.jpg", category: "comida" },
+        { id: 2, name: "Papas Fritas Grandes", price: 8.00, image: "papas.jpg", category: "comida" },
+        { id: 3, name: "Combo Doble Queso", price: 25.00, image: "hamburguesa_doble.jpg", category: "comida" }, // Asumir otra imagen
+        { id: 4, name: "Nuggets (x6)", price: 10.50, image: "nuggets.jpg", category: "comida" },
+        { id: 5, name: "Alitas BBQ (x8)", price: 18.00, image: "alitas_bbq.jpg", category: "comida" },
 
         // Bebidas
-        { id: 6, name: "Gaseosa Personal", price: 5.00, image: "images/gaseosa_personal.jpg", category: "bebida" },
-        { id: 7, name: "Agua Mineral", price: 3.50, image: "images/agua_mineral.jpg", category: "bebida" },
-        { id: 8, name: "Jugo de Naranja Natural", price: 7.00, image: "images/jugo_naranja.jpg", category: "bebida" },
-        { id: 9, name: "Limonada Frozen", price: 9.00, image: "images/limonada_frozen.jpg", category: "bebida" },
+        { id: 6, name: "Gaseosa Personal", price: 5.00, image: "gaseosa_personal.jpg", category: "bebida" },
+        { id: 7, name: "Agua Mineral", price: 3.50, image: "agua_mineral.jpg", category: "bebida" },
+        { id: 8, name: "Jugo de Naranja Natural", price: 7.00, image: "jugo_naranja.jpg", category: "bebida" },
+        { id: 9, name: "Limonada Frozen", price: 9.00, image: "limonada_frozen.jpg", category: "bebida" },
 
         // Pizzas
-        { id: 10, name: "Pizza Pepperoni Individual", price: 20.00, image: "images/pizza_pepperoni.jpg", category: "pizza" },
-        { id: 11, name: "Pizza Hawaiana Familiar", price: 38.50, image: "images/pizza_hawaiana.jpg", category: "pizza" },
-        { id: 12, name: "Pizza Vegetariana Mediana", price: 27.00, image: "images/pizza_vegetariana.jpg", category: "pizza" },
-        { id: 13, name: "Pizza Americana Clásica", price: 35.00, image: "images/pizza_americana.jpg", category: "pizza" }
+        { id: 10, name: "Pizza Pepperoni Individual", price: 20.00, image: "pizza_pepperoni.jpg", category: "pizza" },
+        { id: 11, name: "Pizza Hawaiana Familiar", price: 38.50, image: "pizza_hawaiana.jpg", category: "pizza" },
+        { id: 12, name: "Pizza Vegetariana Mediana", price: 27.00, image: "pizza_vegetariana.jpg", category: "pizza" },
+        { id: 13, name: "Pizza Americana Clásica", price: 35.00, image: "pizza_americana.jpg", category: "pizza" }
     ];
 
     // --- RENDERIZAR MENÚ POR CATEGORÍAS ---
