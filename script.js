@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Datos de ejemplo del menú (puedes obtenerlos de un backend en una app real)
     const menuData = [
         // Comida
-        { id: 1, name: "Hamburguesa Clásica", price: 15.50, image: "hamburguesa.jpg", category: "comida" },
+        { id: 1, name: "Hamburguesa Clásica", price: 15.50, imagen: "hamburguesa.jpg", category: "comida" },
         { id: 2, name: "Papas Fritas Grandes", price: 8.00, image: "papas.jpg", category: "comida" },
         { id: 3, name: "Combo Doble Queso", price: 25.00, image: "hamburguesa_doble.jpg", category: "comida" }, // Asumir otra imagen
         { id: 4, name: "Nuggets (x6)", price: 10.50, image: "nuggets.jpg", category: "comida" },
