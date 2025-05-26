@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const menuSection = document.getElementById('menu-section');
 
     // Número de WhatsApp (IMPORTANTE: Reemplazar con tu número real)
-    const whatsappNumber = "3533689205"; 
+    const whatsappNumber = "3533402144"; 
 
     let cart = []; // Array para almacenar los ítems del carrito: { id, name, price, quantity, image, category }
 
@@ -218,7 +218,7 @@ document.addEventListener('DOMContentLoaded', () => {
             message += "\n\nPor favor, confirmar mi pedido y detalles de entrega/pago. ¡Gracias! 😊";
 
             const encodedMessage = encodeURIComponent(message);
-            const whatsappURL = `https://api.whatsapp.com/send?phone=${3533689205}&text=${encodedMessage}`;
+            const whatsappURL = `https://api.whatsapp.com/send?phone=${3533402144}&text=${encodedMessage}`;
 
             window.open(whatsappURL, '_blank');
         });
